@@ -1,0 +1,11 @@
+[ {
+  "uid" : "20842924a4498a3d",
+  "name" : "test_personal_1_goto_personal_tab",
+  "time" : {
+    "start" : 1614772645210,
+    "stop" : 1614772655699,
+    "duration" : 10489
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

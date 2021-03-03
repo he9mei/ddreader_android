@@ -1,0 +1,5 @@
+INFO     test_personal:test_personal.py:16 ---测试用例---
+INFO     basepage:basepage.py:41 等待元素('xpath', "//*[contains(@text,'我的')]")出现，等待时间为8.503375768661499秒。
+INFO     basepage:basepage.py:123 查找元素('xpath', "//*[contains(@text,'我的')]")成功！
+INFO     basepage:basepage.py:154 点击元素('xpath', "//*[contains(@text,'我的')]")成功！
+INFO     basepage:basepage.py:101 截图成功！保存为:/Users/hehuaimei/PycharmProjects/ddreader_android/outputs/screenshots/2021-03-03/个人中心_点击我的tab__19-57-34.png

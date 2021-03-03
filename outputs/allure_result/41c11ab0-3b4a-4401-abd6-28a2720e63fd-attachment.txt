@@ -1,0 +1,8 @@
+INFO     test_personal:test_personal.py:16 ---个人中心-我的tab----
+INFO     test_personal:basepage.py:42 等待元素('xpath', "//*[contains(@text,'我的')]")出现，等待时间为8.49862289428711秒。
+INFO     test_personal:basepage.py:124 查找元素('xpath', "//*[contains(@text,'我的')]")成功！
+INFO     test_personal:basepage.py:154 点击元素('xpath', "//*[contains(@text,'我的')]")成功！
+INFO     test_personal:basepage.py:102 截图成功！保存为:/Users/hehuaimei/PycharmProjects/ddreader_android/outputs/screenshots/2021-03-03/个人中心_点击我的tab__20-56-19.png
+ERROR    test_personal:basepage.py:156 报错啦exception
+NoneType: None
+ERROR    test_personal:basepage.py:157 报错啦error
