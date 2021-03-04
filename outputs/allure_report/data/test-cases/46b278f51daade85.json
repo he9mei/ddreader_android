@@ -1,12 +1,12 @@
 {
-  "uid" : "20842924a4498a3d",
-  "name" : "test_personal_1_goto_personal_tab",
-  "fullName" : "test_personal.TestPersonal#test_personal_1_goto_personal_tab",
-  "historyId" : "e544883c57bc58647d6fba408539e417",
+  "uid" : "46b278f51daade85",
+  "name" : "test_personal_1_tab",
+  "fullName" : "test_personal.TestPersonal#test_personal_1_tab",
+  "historyId" : "d882c825519e1c4afcc798318c38e3b3",
   "time" : {
-    "start" : 1614772645210,
-    "stop" : 1614772655699,
-    "duration" : 10489
+    "start" : 1614860289890,
+    "stop" : 1614860298477,
+    "duration" : 8587
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "driver",
     "time" : {
-      "start" : 1614772632633,
-      "stop" : 1614772645171,
-      "duration" : 12538
+      "start" : 1614860277604,
+      "stop" : 1614860289826,
+      "duration" : 12222
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,47 +29,26 @@
   } ],
   "testStage" : {
     "status" : "passed",
-    "steps" : [ {
-      "name" : "添加截图",
-      "time" : {
-        "start" : 1614772655697,
-        "stop" : 1614772655699,
-        "duration" : 2
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ {
-        "uid" : "eefddde8af0718a",
-        "name" : "screenshot_个人中心_点击我的tab_",
-        "source" : "eefddde8af0718a.png",
-        "type" : "image/png",
-        "size" : 244092
-      } ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 1,
-      "shouldDisplayMessage" : false,
-      "hasContent" : true
-    } ],
+    "steps" : [ ],
     "attachments" : [ {
-      "uid" : "bc782ca913913d2d",
+      "uid" : "c280d77a188b686b",
       "name" : "log",
-      "source" : "bc782ca913913d2d.txt",
+      "source" : "c280d77a188b686b.txt",
       "type" : "text/plain",
-      "size" : 575
+      "size" : 412
     } ],
     "parameters" : [ ],
-    "stepsCount" : 1,
-    "attachmentsCount" : 2,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
     "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1614772655700,
-      "stop" : 1614772661781,
-      "duration" : 6081
+      "start" : 1614860326708,
+      "stop" : 1614860333240,
+      "duration" : 6532
     },
     "status" : "passed",
     "steps" : [ ],
@@ -91,7 +70,7 @@
     "value" : "hehuaimeideMacBook-Pro.local"
   }, {
     "name" : "thread",
-    "value" : "41611-MainThread"
+    "value" : "45706-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -115,6 +94,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "20842924a4498a3d.json",
+  "source" : "46b278f51daade85.json",
   "parameterValues" : [ ]
 }

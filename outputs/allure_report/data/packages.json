@@ -4,14 +4,40 @@
   "children" : [ {
     "name" : "test_personal",
     "children" : [ {
-      "name" : "test_personal_1_goto_personal_tab",
-      "uid" : "20842924a4498a3d",
+      "name" : "test_personal_1_tab",
+      "uid" : "46b278f51daade85",
       "parentUid" : "89e5f2aeda48a521efaa235a3e160f32",
       "status" : "passed",
       "time" : {
-        "start" : 1614772645210,
-        "stop" : 1614772655699,
-        "duration" : 10489
+        "start" : 1614860289890,
+        "stop" : 1614860298477,
+        "duration" : 8587
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_personal_2_home",
+      "uid" : "30a892922aa473ca",
+      "parentUid" : "89e5f2aeda48a521efaa235a3e160f32",
+      "status" : "broken",
+      "time" : {
+        "start" : 1614860298481,
+        "stop" : 1614860313190,
+        "duration" : 14709
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_personal_3_fail",
+      "uid" : "1a7aca17f3e6553d",
+      "parentUid" : "89e5f2aeda48a521efaa235a3e160f32",
+      "status" : "broken",
+      "time" : {
+        "start" : 1614860313429,
+        "stop" : 1614860326691,
+        "duration" : 13262
       },
       "flaky" : false,
       "newFailed" : false,

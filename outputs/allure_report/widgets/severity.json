@@ -1,11 +1,31 @@
 [ {
-  "uid" : "20842924a4498a3d",
-  "name" : "test_personal_1_goto_personal_tab",
+  "uid" : "46b278f51daade85",
+  "name" : "test_personal_1_tab",
   "time" : {
-    "start" : 1614772645210,
-    "stop" : 1614772655699,
-    "duration" : 10489
+    "start" : 1614860289890,
+    "stop" : 1614860298477,
+    "duration" : 8587
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30a892922aa473ca",
+  "name" : "test_personal_2_home",
+  "time" : {
+    "start" : 1614860298481,
+    "stop" : 1614860313190,
+    "duration" : 14709
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1a7aca17f3e6553d",
+  "name" : "test_personal_3_fail",
+  "time" : {
+    "start" : 1614860313429,
+    "stop" : 1614860326691,
+    "duration" : 13262
+  },
+  "status" : "broken",
   "severity" : "normal"
 } ]

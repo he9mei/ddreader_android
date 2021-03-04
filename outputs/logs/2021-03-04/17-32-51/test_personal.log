@@ -1,0 +1,16 @@
+2021/03/04/17:33:08-[test_personal.py-test_personal_1_tab]-INFO-[line:16]-----点击我的tab----
+2021/03/04/17:33:15-[basepage.py-wait_eleVisible]-INFO-[line:42]-等待元素('xpath', "//*[contains(@text,'我的')]")出现，等待时间为7.379333972930908秒。
+2021/03/04/17:33:16-[basepage.py-get_element]-INFO-[line:124]-查找元素('xpath', "//*[contains(@text,'我的')]")成功！
+2021/03/04/17:33:17-[basepage.py-click]-INFO-[line:154]-点击元素('xpath', "//*[contains(@text,'我的')]")成功！
+2021/03/04/17:33:18-[basepage.py-save_png]-INFO-[line:102]-截图成功！保存为:/Users/hehuaimei/PycharmProjects/ddreader_android/outputs/screenshots/2021-03-04/app_点击我的__17-33-17.png
+2021/03/04/17:33:18-[basepage.py-click]-ERROR-[line:156]-报错啦exception
+NoneType: None
+2021/03/04/17:33:18-[basepage.py-click]-ERROR-[line:157]-报错啦error
+2021/03/04/17:33:18-[test_personal.py-test_personal_2_home]-INFO-[line:22]----点击主页----
+2021/03/04/17:33:20-[basepage.py-wait_eleVisible]-INFO-[line:42]-等待元素('xpath', "//*[contains(@text,'我的')]")出现，等待时间为1.4965949058532715秒。
+2021/03/04/17:33:20-[basepage.py-get_element]-INFO-[line:124]-查找元素('xpath', "//*[contains(@text,'我的')]")成功！
+2021/03/04/17:33:20-[basepage.py-click]-INFO-[line:154]-点击元素('xpath', "//*[contains(@text,'我的')]")成功！
+2021/03/04/17:33:22-[basepage.py-save_png]-INFO-[line:102]-截图成功！保存为:/Users/hehuaimei/PycharmProjects/ddreader_android/outputs/screenshots/2021-03-04/app_点击我的__17-33-20.png
+2021/03/04/17:33:22-[basepage.py-click]-ERROR-[line:156]-报错啦exception
+NoneType: None
+2021/03/04/17:33:22-[basepage.py-click]-ERROR-[line:157]-报错啦error

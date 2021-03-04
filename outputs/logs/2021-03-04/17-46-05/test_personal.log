@@ -1,0 +1,40 @@
+2021/03/04/17:46:20-[test_personal.py-test_personal_1_tab]-INFO-[line:16]-----点击我的tab----
+2021/03/04/17:46:28-[basepage.py-wait_eleVisible]-INFO-[line:42]-等待元素('xpath', "//*[contains(@text,'我的')]")出现，等待时间为8.308410167694092秒。
+2021/03/04/17:46:28-[basepage.py-get_element]-INFO-[line:124]-查找元素('xpath', "//*[contains(@text,'我的')]")成功！
+2021/03/04/17:46:28-[basepage.py-click]-INFO-[line:154]-点击元素('xpath', "//*[contains(@text,'我的')]")成功！
+2021/03/04/17:46:30-[basepage.py-save_png]-INFO-[line:102]-截图成功！保存为:/Users/hehuaimei/PycharmProjects/ddreader_android/outputs/screenshots/2021-03-04/app_点击我的__17-46-28.png
+2021/03/04/17:46:30-[basepage.py-click]-ERROR-[line:156]-报错啦exception
+NoneType: None
+2021/03/04/17:46:30-[basepage.py-click]-ERROR-[line:157]-报错啦error
+2021/03/04/17:46:30-[test_personal.py-test_personal_2_home]-INFO-[line:22]----点击主页----
+2021/03/04/17:46:31-[basepage.py-wait_eleVisible]-INFO-[line:42]-等待元素('xpath', "//*[contains(@text,'我的')]")出现，等待时间为1.2429649829864502秒。
+2021/03/04/17:46:31-[basepage.py-get_element]-INFO-[line:124]-查找元素('xpath', "//*[contains(@text,'我的')]")成功！
+2021/03/04/17:46:32-[basepage.py-click]-INFO-[line:154]-点击元素('xpath', "//*[contains(@text,'我的')]")成功！
+2021/03/04/17:46:34-[basepage.py-save_png]-INFO-[line:102]-截图成功！保存为:/Users/hehuaimei/PycharmProjects/ddreader_android/outputs/screenshots/2021-03-04/app_点击我的__17-46-32.png
+2021/03/04/17:46:34-[basepage.py-click]-ERROR-[line:156]-报错啦exception
+NoneType: None
+2021/03/04/17:46:34-[basepage.py-click]-ERROR-[line:157]-报错啦error
+2021/03/04/17:46:34-[basepage.py-wait_eleVisible]-INFO-[line:42]-等待元素('xpath', "//*[contains(@text,'悦读')]")出现，等待时间为0.28493595123291016秒。
+2021/03/04/17:46:34-[basepage.py-get_element]-INFO-[line:124]-查找元素('xpath', "//*[contains(@text,'悦读')]")成功！
+2021/03/04/17:46:34-[basepage.py-click]-INFO-[line:154]-点击元素('xpath', "//*[contains(@text,'悦读')]")成功！
+2021/03/04/17:46:36-[basepage.py-save_png]-INFO-[line:102]-截图成功！保存为:/Users/hehuaimei/PycharmProjects/ddreader_android/outputs/screenshots/2021-03-04/我的_点击主页__17-46-34.png
+2021/03/04/17:46:36-[basepage.py-click]-ERROR-[line:156]-报错啦exception
+NoneType: None
+2021/03/04/17:46:36-[basepage.py-click]-ERROR-[line:157]-报错啦error
+2021/03/04/17:46:36-[test_personal.py-test_personal_3_fail]-INFO-[line:28]----点击最近在读----
+2021/03/04/17:46:37-[basepage.py-wait_eleVisible]-INFO-[line:42]-等待元素('xpath', "//*[contains(@text,'我的')]")出现，等待时间为0.2814910411834717秒。
+2021/03/04/17:46:37-[basepage.py-get_element]-INFO-[line:124]-查找元素('xpath', "//*[contains(@text,'我的')]")成功！
+2021/03/04/17:46:37-[basepage.py-click]-INFO-[line:154]-点击元素('xpath', "//*[contains(@text,'我的')]")成功！
+2021/03/04/17:46:39-[basepage.py-save_png]-INFO-[line:102]-截图成功！保存为:/Users/hehuaimei/PycharmProjects/ddreader_android/outputs/screenshots/2021-03-04/app_点击我的__17-46-37.png
+2021/03/04/17:46:39-[basepage.py-click]-ERROR-[line:156]-报错啦exception
+NoneType: None
+2021/03/04/17:46:39-[basepage.py-click]-ERROR-[line:157]-报错啦error
+2021/03/04/17:46:50-[basepage.py-wait_eleVisible]-ERROR-[line:35]-等待元素('id', 'com.dangdang.reader:id/book_iv')出现，超时！
+Traceback (most recent call last):
+  File "/Users/hehuaimei/PycharmProjects/ddreader_android/common/basepage.py", line 33, in wait_eleVisible
+    WebDriverWait(self.driver, timeout, frequncy).until(EC.visibility_of_element_located(loc))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2021/03/04/17:46:52-[basepage.py-save_png]-INFO-[line:102]-截图成功！保存为:/Users/hehuaimei/PycharmProjects/ddreader_android/outputs/screenshots/2021-03-04/主页_点击最近在读的数据__17-46-50.png

@@ -1,0 +1,20 @@
+2021/03/04/17:46:30-[basepage.py-click]-ERROR-[line:156]-报错啦exception
+NoneType: None
+2021/03/04/17:46:30-[basepage.py-click]-ERROR-[line:157]-报错啦error
+2021/03/04/17:46:34-[basepage.py-click]-ERROR-[line:156]-报错啦exception
+NoneType: None
+2021/03/04/17:46:34-[basepage.py-click]-ERROR-[line:157]-报错啦error
+2021/03/04/17:46:36-[basepage.py-click]-ERROR-[line:156]-报错啦exception
+NoneType: None
+2021/03/04/17:46:36-[basepage.py-click]-ERROR-[line:157]-报错啦error
+2021/03/04/17:46:39-[basepage.py-click]-ERROR-[line:156]-报错啦exception
+NoneType: None
+2021/03/04/17:46:39-[basepage.py-click]-ERROR-[line:157]-报错啦error
+2021/03/04/17:46:50-[basepage.py-wait_eleVisible]-ERROR-[line:35]-等待元素('id', 'com.dangdang.reader:id/book_iv')出现，超时！
+Traceback (most recent call last):
+  File "/Users/hehuaimei/PycharmProjects/ddreader_android/common/basepage.py", line 33, in wait_eleVisible
+    WebDriverWait(self.driver, timeout, frequncy).until(EC.visibility_of_element_located(loc))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+

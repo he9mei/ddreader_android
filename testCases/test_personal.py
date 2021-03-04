@@ -12,8 +12,21 @@ logger = log.get_logger()
 
 
 class TestPersonal:
-    def test_personal_1_goto_personal_tab(self, driver):
-        logger.info("---个人中心-我的tab----")
+    def test_personal_1_tab(self, driver):
+        logger.info("----点击我的tab----")
         pp = PersonalPage(driver, logger)
-        pp.goto_personal_tab()
+        pp.click_personal_tab()
         # assert pp.get_element()
+
+    def test_personal_2_home(self, driver):
+        logger.info("---点击主页----")
+        pp = PersonalPage(driver, logger)
+        pp.click_personal_tab()
+        pp.click_home_page()
+
+    def test_personal_3_fail(self, driver):
+        logger.info("---点击最近在读----")
+        pp = PersonalPage(driver, logger)
+        pp.click_personal_tab()
+        # pp.click_home_page()
+        pp.click_reading()
