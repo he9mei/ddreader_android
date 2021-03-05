@@ -1,0 +1,8 @@
+automationName: UiAutomator2
+platformName: Android
+platformVersion: 7.1.1
+deviceName: MJA68TGES4S4SKAY
+appPackage: com.dangdang.reader
+appActivity: .activity.GuideActivity
+noReset: True
+
