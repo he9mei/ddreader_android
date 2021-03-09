@@ -9,6 +9,7 @@ from pathlib import Path
 # Log实例化时传入当前py文件名
 log = Log(Path(__file__).name)
 logger = log.get_logger()
+import pytest
 
 
 class TestPersonal:
@@ -24,6 +25,7 @@ class TestPersonal:
         pp.click_personal_tab()
         pp.click_home_page()
 
+    @pytest.mark.skip
     def test_personal_3_fail(self, driver):
         logger.info("---点击最近在读----")
         pp = PersonalPage(driver, logger)

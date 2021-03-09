@@ -1,5 +1,0 @@
-2021/03/03/20:52:53-[test_personal.py-test_personal_1_goto_personal_tab]-INFO-[line:16]----个人中心-我的tab----
-2021/03/03/20:53:00-[basepage.py-wait_eleVisible]-INFO-[line:42]-等待元素('xpath', "//*[contains(@text,'我的')]")出现，等待时间为7.315233945846558秒。
-2021/03/03/20:53:00-[basepage.py-get_element]-INFO-[line:124]-查找元素('xpath', "//*[contains(@text,'我的')]")成功！
-2021/03/03/20:53:01-[basepage.py-click]-INFO-[line:154]-点击元素('xpath', "//*[contains(@text,'我的')]")成功！
-2021/03/03/20:53:03-[basepage.py-save_png]-INFO-[line:102]-截图成功！保存为:/Users/hehuaimei/PycharmProjects/ddreader_android/outputs/screenshots/2021-03-03/个人中心_点击我的tab__20-53-01.png

@@ -9,25 +9,13 @@ from common.dir_config import caps_dir
 import os
 import time
 from common.dir_config import fail_capture_dir, outputs_dir
-# app_driver = None
+
+app_driver = None
 
 
 @pytest.fixture(scope="session", autouse=True)
-# def start_app():
 def driver():
-    # global app_driver
-    # desired_caps = {}    # 启动参数用yaml配置替代
-    # desired_caps["automationName"] = "uiAutomator2"
-    # desired_caps["platformName"] = "Android"
-    # desired_caps["platformVersion"] = "7.1.1"
-    # desired_caps["deviceName"] = "MJA68TGES4S4SKAY"
-    # desired_caps["appPackage"] = "com.dangdang.reader"
-    # desired_caps["appActivity"] = ".activity.GuideActivity"
-    # desired_caps["noReset"] = True
-
     # 打开yaml文件
-    # 路径写在common中dir_config中
-    # print(caps_dir)  # C:\Users\lipan\PycharmProjects\python_lemon\app\app_po_v1\conf_data
     fs = open(f"{caps_dir}/desired_caps.yaml")
     # 加载成python对象
     desired_caps = yaml.load(fs, yaml.FullLoader)
@@ -35,11 +23,18 @@ def driver():
 
     driver = webdriver.Remote("http://0.0.0.0:4723/wd/hub", desired_caps)
     driver.implicitly_wait(10)
-    # app_driver = driver
+
+    global app_driver
+    app_driver = driver
     # return app_driver
+
+
+@pytest.fixture(scope="session", autouse=True)
+def driver_end():
     yield driver
     sleep(5)
     driver.quit()
+
 
 # 失败监听+失败截图
 # 参考：
@@ -47,6 +42,7 @@ def driver():
 # https://www.cnblogs.com/xiaogongjin/p/11705914.html
 # https://blog.csdn.net/weixin_30915275/article/details/94862440
 # https://blog.csdn.net/liyacai_20120512/article/details/102797042
+
 
 @pytest.hookimpl(tryfirst=True, hookwrapper=True)
 def pytest_runtest_makereport(item, call):
@@ -75,6 +71,8 @@ def pytest_runtest_makereport(item, call):
             else:
                 extra = ""
             f.write(rep.nodeid + extra + "\n")
+
+        # 调取失败截图方法
         fail_capture()  # 方式1：调用失败截图并加入allure的方法
 
         # 方式2：直接使用以下方式也可以，直接把失败截图添加到allure（但是图片不会保存到本地）

@@ -1,0 +1,6 @@
+2021/03/09/21:06:11-[test_personal.py-test_personal_1_tab]-INFO-[line:17]-----点击我的tab----
+2021/03/09/21:06:11-[basepage.py-wait_eleVisible]-ERROR-[line:35]-等待元素('xpath', "//*[contains(@text,'我的')]")出现，超时！
+2021/03/09/21:06:12-[basepage.py-save_png]-ERROR-[line:77]-截图失败:app_点击我的_
+2021/03/09/21:06:12-[test_personal.py-test_personal_2_home]-INFO-[line:23]----点击主页----
+2021/03/09/21:06:12-[basepage.py-wait_eleVisible]-ERROR-[line:35]-等待元素('xpath', "//*[contains(@text,'我的')]")出现，超时！
+2021/03/09/21:06:13-[basepage.py-save_png]-ERROR-[line:77]-截图失败:app_点击我的_

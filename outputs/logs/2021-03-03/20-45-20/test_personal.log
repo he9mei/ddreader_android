@@ -1,2 +1,0 @@
-2021/03/03/20:45:34-[test_personal.py-test_personal_1_goto_personal_tab]-INFO-[line:16]----个人中心-我的tab----
-2021/03/03/20:45:43-[basepage.py-click]-INFO-[line:154]-点击元素('xpath', "//*[contains(@text,'我的')]")成功！

@@ -1,0 +1,10 @@
+2021/03/09/21:01:55-[test_personal.py-test_personal_1_tab]-INFO-[line:17]-----点击我的tab----
+2021/03/09/21:02:02-[basepage.py-wait_eleVisible]-INFO-[line:42]-等待元素('xpath', "//*[contains(@text,'我的')]")出现，等待时间为7.15069580078125秒。
+2021/03/09/21:02:03-[basepage.py-get_element]-INFO-[line:100]-查找元素('xpath', "//*[contains(@text,'我的')]")成功！
+2021/03/09/21:02:05-[basepage.py-click]-INFO-[line:129]-点击元素('xpath', "//*[contains(@text,'我的')]")成功！
+2021/03/09/21:02:05-[test_personal.py-test_personal_2_home]-INFO-[line:23]----点击主页----
+2021/03/09/21:02:05-[basepage.py-wait_eleVisible]-INFO-[line:42]-等待元素('xpath', "//*[contains(@text,'我的')]")出现，等待时间为0.7527008056640625秒。
+2021/03/09/21:02:05-[basepage.py-get_element]-INFO-[line:100]-查找元素('xpath', "//*[contains(@text,'我的')]")成功！
+2021/03/09/21:02:05-[basepage.py-click]-INFO-[line:129]-点击元素('xpath', "//*[contains(@text,'我的')]")成功！
+2021/03/09/21:02:16-[basepage.py-wait_eleVisible]-ERROR-[line:35]-等待元素('xpath', "//*[contains(@text,'何九妹')]")出现，超时！
+2021/03/09/21:02:18-[basepage.py-save_png]-INFO-[line:79]-截图成功！保存为:/Users/hehuaimei/PycharmProjects/ddreader_android/outputs/screenshots/2021-03-09/我的_点击主页__21-02-16.png

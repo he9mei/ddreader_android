@@ -1,0 +1,4 @@
+2021/03/09/21:03:34-[basepage.py-wait_eleVisible]-ERROR-[line:35]-等待元素('xpath', "//*[contains(@text,'我的')]")出现，超时！
+2021/03/09/21:03:35-[basepage.py-save_png]-ERROR-[line:77]-截图失败:app_点击我的_
+2021/03/09/21:03:36-[basepage.py-wait_eleVisible]-ERROR-[line:35]-等待元素('xpath', "//*[contains(@text,'我的')]")出现，超时！
+2021/03/09/21:03:37-[basepage.py-save_png]-ERROR-[line:77]-截图失败:app_点击我的_

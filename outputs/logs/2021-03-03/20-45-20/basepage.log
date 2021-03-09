@@ -1,3 +1,0 @@
-2021/03/03/20:45:42-[basepage.py-wait_eleVisible]-INFO-[line:41]-等待元素('xpath', "//*[contains(@text,'我的')]")出现，等待时间为8.59729790687561秒。
-2021/03/03/20:45:43-[basepage.py-get_element]-INFO-[line:123]-查找元素('xpath', "//*[contains(@text,'我的')]")成功！
-2021/03/03/20:45:45-[basepage.py-save_png]-INFO-[line:101]-截图成功！保存为:/Users/hehuaimei/PycharmProjects/ddreader_android/outputs/screenshots/2021-03-03/个人中心_点击我的tab__20-45-43.png
