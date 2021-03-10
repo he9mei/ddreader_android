@@ -1,3 +1,0 @@
-INFO     test_personal:test_personal.py:23 ---点击主页----
-ERROR    test_personal:basepage.py:35 等待元素('xpath', "//*[contains(@text,'我的')]")出现，超时！
-ERROR    test_personal:basepage.py:77 截图失败:app_点击我的_
