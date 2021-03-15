@@ -3,13 +3,16 @@
 import pytest
 from common.dir_config import allure_result_dir
 
+rerun = 0
+cases_path = "test_personal.py"
+
 if __name__ == "__main__":
-    # pytest.main(["-s", "-v", "app_demo_reader.py"])
     pytest.main(["-s",
                  "-v",
-                 "test_personal.py",
+                 cases_path,
                  "--alluredir="+allure_result_dir,
-                 "--clean-alluredir"])
+                 "--clean-alluredir",
+                 "--reruns", rerun])
 
 
 '''
