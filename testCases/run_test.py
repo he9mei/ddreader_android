@@ -2,9 +2,11 @@ import click
 import pytest
 import time
 import os
+from common.dir_config import allure_result_dir
 
 
-case_path = "./test_case/test_01_login.py"
+# case_path = "./test_case/test_01_login.py"
+case_path = "test_personal.py"
 rerun = "1"  # 这里需要写出str格式，如果直接写成数字1，后面使用时需要str(rerun)
 
 
@@ -13,20 +15,21 @@ rerun = "1"  # 这里需要写出str格式，如果直接写成数字1，后面�
 def run(m):
     if m is None or m == "run":
         print("回归模式，执行用例完成后，生成测试报告！")
-        now_time = time.strftime("%Y-%m-%d_%H-%M-%S")
+        # now_time = time.strftime("%Y-%m-%d_%H-%M-%S")
         # init_evn(now_time) 不太明白，初始化环境？不用这个也可以
-        html_report=os.path.join("./test_result/report/html_report",now_time,"report.html")
+        # html_report=os.path.join("./test_result/report/html_report",now_time,"report.html")
         # xml_report=os.path.join("./test_result/report/xml_report",now_time,"junit-xml.xml")
         # allure_results=os.path.join("./test_result/report/allure_results",now_time)
-        allure_results = os.path.join("./test_result/report/allure_results")
+        # allure_results = os.path.join("./test_result/report/allure_results")
         # pytest.main(["-s","-v","--alluredir=./test_result/report/allure_results","--clean-alluredir"])
         pytest.main(["-s", "-v", case_path,
                      # "--html=./test_result/report/html_report/report.html",  # html报告会自动覆盖,不加时间也可以
-                     "--html="+html_report,
+                     # "--html="+html_report,
                      # "--junit-xml="+xml_report,
-                     "--alluredir="+allure_results,
+                     # "--alluredir="+allure_results,
+                     "--alluredir="+allure_result_dir,
                      "--clean-alluredir",
-                     "--self-contained-html",
+                     # "--self-contained-html",
                      "--reruns", rerun])  # "--reruns"+rerun 这种写法错误 reruns 和 rerun要当成2个命令写
     elif m == "debug":
         print("debug模式执行用例！")

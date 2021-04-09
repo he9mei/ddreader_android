@@ -21,7 +21,7 @@ def driver():
     desired_caps = yaml.load(fs, yaml.FullLoader)
     fs.close()
 
-    driver = webdriver.Remote("http://0.0.0.0:4723/wd/hub", desired_caps)
+    driver = webdriver.Remote("http://localhost:4723/wd/hub", desired_caps)
     driver.implicitly_wait(10)
     print("---启动driver---")
 
