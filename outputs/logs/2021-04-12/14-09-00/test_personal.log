@@ -1,0 +1,11 @@
+2021/04/12/14:09:20-[test_personal.py-test_personal_1_tab]-INFO-[line:17]-----点击我的tab----
+2021/04/12/14:09:28-[basepage.py-wait_eleVisible]-INFO-[line:42]-等待元素('xpath', "//*[contains(@text,'我的')]")出现，等待时间为8.01347827911377秒。
+2021/04/12/14:09:29-[basepage.py-get_element]-INFO-[line:100]-查找元素('xpath', "//*[contains(@text,'我的')]")成功！
+2021/04/12/14:09:29-[basepage.py-click]-INFO-[line:129]-点击元素('xpath', "//*[contains(@text,'我的')]")成功！
+2021/04/12/14:09:29-[test_personal.py-test_personal_2_home]-INFO-[line:23]----点击主页----
+2021/04/12/14:09:31-[basepage.py-wait_eleVisible]-INFO-[line:42]-等待元素('xpath', "//*[contains(@text,'我的')]")出现，等待时间为1.5229036808013916秒。
+2021/04/12/14:09:31-[basepage.py-get_element]-INFO-[line:100]-查找元素('xpath', "//*[contains(@text,'我的')]")成功！
+2021/04/12/14:09:32-[basepage.py-click]-INFO-[line:129]-点击元素('xpath', "//*[contains(@text,'我的')]")成功！
+2021/04/12/14:09:33-[basepage.py-wait_eleVisible]-INFO-[line:42]-等待元素('xpath', "//*[contains(@text,'何九妹')]")出现，等待时间为0.31648993492126465秒。
+2021/04/12/14:09:33-[basepage.py-get_element]-INFO-[line:100]-查找元素('xpath', "//*[contains(@text,'何九妹')]")成功！
+2021/04/12/14:09:33-[basepage.py-click]-INFO-[line:129]-点击元素('xpath', "//*[contains(@text,'何九妹')]")成功！

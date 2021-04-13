@@ -1,4 +1,0 @@
-INFO     test_personal:test_personal.py:17 ----点击我的tab----
-INFO     test_personal:basepage.py:42 等待元素('xpath', "//*[contains(@text,'我的')]")出现，等待时间为8.21286392211914秒。
-INFO     test_personal:basepage.py:100 查找元素('xpath', "//*[contains(@text,'我的')]")成功！
-INFO     test_personal:basepage.py:129 点击元素('xpath', "//*[contains(@text,'我的')]")成功！
