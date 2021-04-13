@@ -39,4 +39,7 @@ allure报告转换：
 --> pip3 install -U pytest-rerunfailures --trusted-host pypi.org --trusted-host files.pythonhosted.org
 安装成功！重新执行成功！
 
+ (3)在pytest.ini文件配置好执行的命令，直接pytest执行
+ --> python3.8 -m pytest
+(如果能识别，直接-->pytest 就可以)
 '''
