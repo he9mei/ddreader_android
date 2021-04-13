@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Thu Mar 04 20:18:18 CST 2021","Thu Mar 04 20:18:33 CST 2021","14709","","test_personal","TestPersonal","","","test_personal_2_home",""
-"broken","Thu Mar 04 20:18:33 CST 2021","Thu Mar 04 20:18:46 CST 2021","13262","","test_personal","TestPersonal","","","test_personal_3_fail",""
-"passed","Thu Mar 04 20:18:09 CST 2021","Thu Mar 04 20:18:18 CST 2021","8587","","test_personal","TestPersonal","","","test_personal_1_tab",""

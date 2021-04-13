@@ -1,6 +1,0 @@
-INFO     test_personal:test_personal.py:28 ---点击最近在读----
-INFO     test_personal:basepage.py:42 等待元素('xpath', "//*[contains(@text,'我的')]")出现，等待时间为0.265286922454834秒。
-INFO     test_personal:basepage.py:100 查找元素('xpath', "//*[contains(@text,'我的')]")成功！
-INFO     test_personal:basepage.py:129 点击元素('xpath', "//*[contains(@text,'我的')]")成功！
-ERROR    test_personal:basepage.py:35 等待元素('id', 'com.dangdang.reader:id/book_iv')出现，超时！
-INFO     test_personal:basepage.py:79 截图成功！保存为:/Users/hehuaimei/PycharmProjects/ddreader_android/outputs/screenshots/2021-03-04/主页_点击最近在读的数据__20-18-44.png

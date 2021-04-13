@@ -1,0 +1,7 @@
+[32mINFO    [0m test_personal:test_personal.py:23 ---点击主页----
+[32mINFO    [0m test_personal:basepage.py:42 等待元素('xpath', "//*[contains(@text,'我的')]")出现，等待时间为2.7635841369628906秒。
+[32mINFO    [0m test_personal:basepage.py:100 查找元素('xpath', "//*[contains(@text,'我的')]")成功！
+[32mINFO    [0m test_personal:basepage.py:129 点击元素('xpath', "//*[contains(@text,'我的')]")成功！
+[32mINFO    [0m test_personal:basepage.py:42 等待元素('xpath', "//*[contains(@text,'何九妹')]")出现，等待时间为0.8907778263092041秒。
+[32mINFO    [0m test_personal:basepage.py:100 查找元素('xpath', "//*[contains(@text,'何九妹')]")成功！
+[32mINFO    [0m test_personal:basepage.py:129 点击元素('xpath', "//*[contains(@text,'何九妹')]")成功！

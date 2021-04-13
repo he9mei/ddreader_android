@@ -4,10 +4,8 @@ import time
 import os
 from common.dir_config import allure_result_dir
 
-
-# case_path = "./test_case/test_01_login.py"
-case_path = "test_personal.py"
-rerun = "1"  # 这里需要写出str格式，如果直接写成数字1，后面使用时需要str(rerun)
+case_path = "./testCases/test_personal.py"
+rerun = "2"  # 这里需要写出str格式，如果直接写成数字1，后面使用时需要str(rerun)
 
 
 @click.command()   # 需要先安装click插件，并导入click
@@ -30,6 +28,7 @@ def run(m):
                      "--alluredir="+allure_result_dir,
                      "--clean-alluredir",
                      # "--self-contained-html",
+                     "--lf",
                      "--reruns", rerun])  # "--reruns"+rerun 这种写法错误 reruns 和 rerun要当成2个命令写
     elif m == "debug":
         print("debug模式执行用例！")
@@ -48,3 +47,10 @@ if __name__ == "__main__":
 # allure报告暂时不用时间了，因为generate的时候，如果带有时间会麻烦点
 # allure generate ./test_result/report/allure_results/2020-07-15_19-50-18 -c -o  ./test_result/report/allure_report
 # allure generate ./test_result/report/allure_results -c -o  ./test_result/report/allure_report
+
+'''
+执行：
+-->python3.8 run_test.py
+-->python3.8 run_test.py -m debug
+
+'''
